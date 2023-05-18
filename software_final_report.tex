@@ -1,7 +1,8 @@
 \documentclass{article}
 \usepackage{listings}
 \usepackage{xcolor}
-
+\usepackage{graphicx}
+\usepackage{float} 
 \title{Software Assignment Report}
 \author{Saketh Ram Kumar Dondapati}
 \date{\today}
@@ -52,6 +53,13 @@ Within the event loop, various events are handled, such as button clicks, song c
 Below is the complete Python code for the program:
 
 \lstinputlisting[language=Python]{main.py}
+
+\begin{figure}[ht]
+        \centering
+        \includegraphics[width=0.8\linewidth]{GUI.png}
+        \caption{Image of the GUI player}
+        \label{fig:view}
+\end{figure}
 
 \section{Conclusion}
 The implemented music player provides basic functionalities for playing, pausing, skipping songs, and shuffling the playlist. It serves as a starting point for further enhancements and customization.
